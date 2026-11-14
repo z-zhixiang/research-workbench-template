@@ -1,0 +1,13 @@
+# 参考:如果你用 git 管理自己的工作台,建议用【私有】仓库,并考虑忽略这些内容
+# 把本文件复制成 .gitignore 后按需取舍
+
+# 原始材料和个人日志(可能含隐私或有版权的内容)
+knowledge-base/raw/*
+!knowledge-base/raw/.gitkeep
+knowledge-base/journal/*
+!knowledge-base/journal/.gitkeep
+
+# Obsidian 本机设置
+knowledge-base/.obsidian/workspace*.json
+
+.DS_Store

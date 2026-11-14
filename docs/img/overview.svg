@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 250" width="760" height="250" role="img" aria-labelledby="t d">
+  <title id="t">Research workbench: Zotero, Obsidian, research project, with AI working under written rules</title>
+  <desc id="d">Zotero holds papers and metadata, Obsidian holds distilled knowledge (raw to wiki to outputs), the research project holds notes, experiments and writing. An AI layer works across all three under rules in SYSTEM.md.</desc>
+  <style>
+    .surface { fill: #fcfcfb; }
+    .tile    { fill: #f3f2ef; }
+    .band    { fill: #2a78d6; }
+    .ink     { fill: #0b0b0b; }
+    .ink2    { fill: #52514e; }
+    .onband  { fill: #ffffff; }
+    .arrow   { stroke: #8a8984; stroke-width: 2; fill: none; }
+    .head    { fill: #8a8984; }
+    text     { font-family: -apple-system, "SF Pro Text", "PingFang SC", "Segoe UI", "Microsoft YaHei", sans-serif; }
+    @media (prefers-color-scheme: dark) {
+      .surface { fill: #1a1a19; }
+      .tile    { fill: #242422; }
+      .band    { fill: #3987e5; }
+      .ink     { fill: #f0efec; }
+      .ink2    { fill: #c3c2b7; }
+      .onband  { fill: #0b0b0b; }
+      .arrow   { stroke: #8a8984; }
+    }
+  </style>
+  <rect class="surface" x="0" y="0" width="760" height="250" rx="12"/>
+
+  <rect class="tile" x="24"  y="24" width="214" height="124" rx="8"/>
+  <rect class="tile" x="273" y="24" width="214" height="124" rx="8"/>
+  <rect class="tile" x="522" y="24" width="214" height="124" rx="8"/>
+
+  <text class="ink"  x="44"  y="58" font-size="18" font-weight="700">Zotero</text>
+  <text class="ink2" x="44"  y="84" font-size="13">文献来源与原件</text>
+  <text class="ink2" x="44"  y="104" font-size="12">PDF · 元数据 · 引用</text>
+
+  <text class="ink"  x="293" y="58" font-size="18" font-weight="700">Obsidian 知识库</text>
+  <text class="ink2" x="293" y="84" font-size="13">知识沉淀与链接</text>
+  <text class="ink2" x="293" y="104" font-size="12">raw → wiki → outputs · journal</text>
+
+  <text class="ink"  x="542" y="58" font-size="18" font-weight="700">研究项目</text>
+  <text class="ink2" x="542" y="84" font-size="13">真正推进的研究</text>
+  <text class="ink2" x="542" y="104" font-size="12">笔记 · 实验 · 写作 · 日志</text>
+
+  <path class="arrow" d="M240 86 H262"/><path class="head" d="M262 80 L272 86 L262 92 Z"/>
+  <path class="arrow" d="M489 86 H511"/><path class="head" d="M511 80 L521 86 L511 92 Z"/>
+
+  <rect class="band" x="24" y="170" width="712" height="56" rx="8"/>
+  <text class="onband" x="44" y="196" font-size="16" font-weight="700">AI:在写明的规则内整理、检索、写作</text>
+  <text class="onband" x="44" y="216" font-size="12">先读 SYSTEM.md,再读所动那一层的规则 · 不新建平行体系 · 不改写 raw/ · 不编造</text>
+</svg>
