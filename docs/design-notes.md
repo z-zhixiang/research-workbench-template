@@ -18,7 +18,7 @@
 
 | 目录 | AI 的权限 | 用途 |
 |---|---|---|
-| `knowledge-base/raw/` | 只读 | 原始材料 |
+| `knowledge-base/raw/` | 只读(`raw/web/` 仅可新增) | 原始材料 |
 | `knowledge-base/wiki/` | 读写 | AI 整理后的主题页,页面间用 `[[双向链接]]` |
 | `knowledge-base/outputs/` | 只写 | 报告、问答结果等衍生产出 |
 | `knowledge-base/journal/` | 读写 | 每日进度 |
@@ -39,7 +39,8 @@
 
 - [ ] Zotero ↔ Obsidian 衔接的几种可选做法(例如导出文献笔记)及各自利弊
 - [ ] 知识库整理与维护的可选自动触发(默认仍为手动)
-- [ ] 网页帖子、公众号文章的归档落点与流程
+- [x] 小红书笔记归档:可选脚本 `template/tools/fetch_xhs.py`,默认存入 `knowledge-base/raw/web/`,只新增(依赖页面结构,可能失效)
+- [ ] 公众号等其他平台的归档
 - [ ] 英文版教程
 - [ ] 让其他人走一遍教程,记录卡住的地方
 

@@ -20,6 +20,7 @@ Open Claude Code (or any agent that can read and write files) and send:
 - One master file (`SYSTEM.md`) plus one rule file per layer. The AI reads them first, so it does not scatter files, start a parallel note system, or touch your raw material.
 - `raw/` is read-only for the AI. Anything unknown is marked `待确认` (to be confirmed), never guessed.
 - Tidying and maintenance run **only when you ask**; nothing happens in the background.
+- Optional: `template/tools/fetch_xhs.py` archives a Xiaohongshu (RedNote) note (text, tags, images, top comments) into `knowledge-base/raw/web/`, add-only. It depends on the site's page layout and may stop working; it stops at a captcha and never bypasses it. Personal archiving only. The author has tried it on a single link.
 
 ## Keep your own data private
 

@@ -17,6 +17,7 @@
 | 研究项目 | `research-project/` | 真正在推进的研究:笔记、实验、写作、日志 |
 | Obsidian 知识库 | `knowledge-base/` | 文献知识沉淀:`raw/` → `wiki/` → `outputs/`,另有 `journal/` |
 | Zotero | 【填写:数据目录位置,默认位置也可以】 | 文献来源库(PDF + 元数据) |
+| 可选工具 | `tools/` | 网页帖子归档脚本(目前只支持小红书),见 `knowledge-base/CLAUDE.md` |
 
 ## 三、核心框架:Zotero + Obsidian + AI
 

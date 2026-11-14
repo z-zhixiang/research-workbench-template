@@ -26,6 +26,7 @@ template/                      ← 复制这个文件夹到你自己的位置使
   knowledge-base/              Obsidian 知识库(把这个文件夹当作一个 vault 打开)
     CLAUDE.md                  这一层的规则
     raw/ wiki/ outputs/ journal/
+  tools/                       可选:小红书笔记归档脚本
   research-project/            一个研究项目(可以是一个 git 仓库)
     PROJECT.md  CONTEXT.md  research-log.md
     docs/agents/               路由与管理规则
@@ -45,6 +46,7 @@ Zotero 管文献原件(PDF 和元数据),Obsidian 管知识沉淀,AI 在规则�
 - 这套结构来自作者的实际使用,但**作为模板,它还没有被其他人完整走通过**,欢迎反馈。
 - **Zotero 与 Obsidian 怎么衔接**,目前没有定成规则,模板里只留了"待确认"的位置,没有替你发明。见 [路线图](docs/design-notes.md#路线图)。
 - 知识库的整理和维护**默认没有自动触发**,只在你要求时由 AI 手动执行。
+- 可选的小红书归档脚本**依赖网页结构,可能失效**,遇到验证码会停下而不是绕过;仅供个人归档,抓到的内容别公开转发。**这个脚本作者只在自己的一条链接上试过。**
 
 ## 从哪里开始
 
