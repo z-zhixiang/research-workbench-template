@@ -10,7 +10,7 @@
 
 Open Claude Code (or any agent that can read and write files) and send:
 
-> I want to set up a personal research workbench. Read `AGENTS.md` and `TUTORIAL.md` in https://github.com/<your-username>/research-workbench-template and walk me through it. Tell me clearly which steps I must do myself (installing apps, opening a folder in an app, signing in) and do the rest. Do not invent facts about me; ask when you don't know.
+> I want to set up a personal research workbench. Read `AGENTS.md` and `TUTORIAL.md` in https://github.com/z-zhixiang/research-workbench-template and walk me through it. Tell me clearly which steps I must do myself (installing apps, opening a folder in an app, signing in) and do the rest. Do not invent facts about me; ask when you don't know.
 
 `AGENTS.md` is in English and tells the AI to reply in your language. `TUTORIAL.md` is currently Chinese only.
 

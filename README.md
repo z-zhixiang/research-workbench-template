@@ -8,7 +8,7 @@
 
 打开 Claude Code(或任何能读写文件的 AI),把下面这段话发给它:
 
-> 我想建一套自己的研究工作台。请阅读 https://github.com/<你的用户名>/research-workbench-template 里的 `AGENTS.md` 和 `TUTORIAL.md`,按里面的步骤带我搭好。
+> 我想建一套自己的研究工作台。请阅读 https://github.com/z-zhixiang/research-workbench-template 里的 `AGENTS.md` 和 `TUTORIAL.md`,按里面的步骤带我搭好。
 > 需要我手动做的地方(安装软件、在软件里打开文件夹、授权登录)请明确告诉我,其余的你自己来。不要编造我没告诉你的信息,不知道的就问我。
 
 ## 它解决什么问题
